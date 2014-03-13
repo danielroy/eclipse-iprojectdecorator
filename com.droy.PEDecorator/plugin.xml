@@ -6,7 +6,7 @@
          point="org.eclipse.ui.decorators">
       <decorator
             adaptable="true"
-            label="[Fuego] Full Path Decorator"
+            label="Full Path IProject Decorator"
             state="true"
             id="com.droy.PEDecorator.decorator"
             objectClass="org.eclipse.core.resources.IProject"
