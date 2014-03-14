@@ -32,7 +32,7 @@ public class ProjectDecorator extends LabelProvider implements ILabelDecorator {
 		if (element instanceof IProject) {
 			return text + " " + ((IProject) element).getLocationURI();
 		}
-		return "decoration " + text;
+		return text;
 	}
 
 }
